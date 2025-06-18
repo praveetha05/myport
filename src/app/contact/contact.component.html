@@ -1,0 +1,37 @@
+<body>
+   
+<h1 class="text-success fw-bold text-center mt-5" >Contact Me</h1>
+    <div class="container d-flex row justify-content-center mt-5">
+         
+
+    <section >
+  <p>Email: <a href="praveetha2022@gmail.com">praveetha2022&#64;gmail.com</a></p>
+  <p>Location: karaikudi</p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/praveetha-r-70332914b" target="_blank">praveetha</a></p>
+  <p>GitHub: <a href="https://github.com/praveetha05" target="_blank">github.com/praveetha05</a></p>
+
+
+ <h2 class="text-center fw-bold">Send Message</h2>
+
+  <form action="praveetha2022&#64;gmail.com" method="post" #pravee="ngForm" (submit)="saveData(pravee)">
+    <input type="text" name="Fsn" placeholder="Your Name" class="form-control " [(ngModel)]="FN" #Fsn="ngModel" required maxlength="7" minlength="5">
+    <p *ngIf="Fsn.errors?.['required'] && Fsn.touched" class="text-danger">Name is Required</p>
+   
+    <input type="email" name="eml" placeholder="Your Email" required class="form-control" [(ngModel)]="em" #eml="ngModel" email>
+     <p *ngIf="eml.errors?.['required']&& eml.touched" class="text-danger">Email is Required</p>
+      <p *ngIf="eml.errors?.['email'] && eml.touched" class="text-danger">Email format is incorrect</p>
+ 
+    <textarea name="message" placeholder="Your Message" class="form-control"></textarea>
+
+    <button type="submit" class="btn btn-success" [disabled]="pravee.invalid">Send</button>
+ 
+
+  </form>
+  </section>
+  </div>
+
+
+
+
+</body>
+

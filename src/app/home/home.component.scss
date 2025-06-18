@@ -1,4 +1,4 @@
-/*body{
+body{
     background-image: url(/back9.webp);
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,43 +8,38 @@
 
    
 
-}*/
+}
 
 *{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 1px 2px 3px  black;
      //color: white;
 }
-/*.myphoto{
+.myphoto{
     //background-color:rgb(0, 225, 255);
     border-radius: 50%;
     width: 350px;
     box-shadow: 25px 20px 20px pink ;
                 
-}*/
+}
 
-/*.imgdv{
+.imgdv{
     display: flex;
     flex-direction: row;
     gap: 500px;
-  }*/
+  }
 
   a{
-   color: white;
+    color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: larger;
   }
-  a:hover{
-    border-bottom: yellow;
-    border-style: solid;
-    border-radius: 2px;
-  }
-  /*p{
+  p{
     font-size: 40px;
 
-  }*/
-  /*.icon{
+  }
+  .icon{
     border-radius: 50%;
     border: 2px solid black;
     font-size: 35px;
@@ -62,5 +57,4 @@
 
     
       
-  }*/
-  
+  }

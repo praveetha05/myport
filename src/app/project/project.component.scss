@@ -1,0 +1,58 @@
+
+body{
+   
+    background-image: url(/back9.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: skyblue;
+    background-blend-mode: multiply;
+    color: white;
+    background-blend-mode: multiply;
+      background-attachment: fixed;  
+   height: 150vh;
+overflow: hidden; 
+  
+
+
+}
+*{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 2px 3px black;
+    color: white;
+}
+h1{
+     text-shadow: 1px 2px 3px black;
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    width: 10000px;
+    flex-flow: wrap ;
+    gap:5px;
+}
+p{
+    font-weight: bold;
+}
+button {
+  /*height: 300px;
+  width: 500px;
+  box-shadow: 1px 2px 3px 4px white;
+  margin: 20px;*/
+
+   width: 400px;
+            height: 200px;
+            background-color: rgb(2, 61, 2);
+            
+            font-size: 25px;
+            color: white;
+            font-weight: bolder;
+           border-radius: 20px;
+           box-shadow: 1px 2px 3px 4px gray;
+           margin: 20px;
+         
+}
+button:hover{
+    background-color: red;
+}
+
+

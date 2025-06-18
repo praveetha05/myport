@@ -1,0 +1,32 @@
+
+body{
+   
+    background-image: url(/back9.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: skyblue;
+    background-blend-mode: multiply;
+    color: white;
+    background-blend-mode: multiply;
+     height: 100vh;
+     overflow: hidden;
+
+}
+
+*{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 2px 3px  black;
+     //color: white;
+}
+h1{
+     text-shadow: 1px 2px 3px  black;
+}
+div{
+     display: inline-block;
+
+    height: 500px;
+    width: 700px;
+    justify-content: center;
+
+}
+

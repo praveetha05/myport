@@ -1,0 +1,223 @@
+body{
+   
+    background-image: url(/back9.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: skyblue;
+    background-blend-mode: multiply;
+    color: white;
+    background-blend-mode: multiply;
+    text-align: center;
+     height: 120vh;
+     overflow: hidden;
+
+}
+*{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 2px 3px black;
+    color: white;
+}
+h1{
+     text-shadow: 1px 2px 3px black;
+}
+h2{
+   
+    text-shadow: 1px 2px 3px black;
+
+}
+
+.code{
+    display: inline-block;
+    width: 350px;
+    box-shadow: 1px 2px 3px 5px white;
+    border-radius: 20px;
+    margin: 50px;
+
+   // background-color: black;
+   background-color:gray(67, 21, 5, 0.5);
+    padding: 20px;
+    height: 200px;
+}
+
+.point {
+    width: 280px;
+    height: 5px;
+    border: 2px solid gray;
+    position: relative;
+    border-radius: 4px;
+    margin-right:50px;
+}
+
+#one{
+    position: absolute;
+    height: 4px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid transparent;
+   transform: translateY(-5px);
+   animation: first 2s forwards;
+   transition: 5s;
+
+
+   
+}
+
+@keyframes first {
+
+    0%{
+        background-color: transparent;
+
+    }
+    50%{
+        width: 50px;
+        background-color: aqua;
+      
+    }
+   100%{
+        width:270px ;
+        background-color: aqua;
+     
+        
+    }
+    
+
+}
+
+#two{
+    position: absolute;
+    height: 4px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid transparent;
+   transform: translateY(-5px);
+   animation: second 2s forwards;
+   transition: 5s;
+
+
+   
+}
+
+@keyframes second {
+
+    0%{
+        background-color: transparent;
+
+    }
+    50%{
+        width: 50px;
+        background-color: aqua;
+      
+    }
+   100%{
+        width:270px ;
+        background-color: aqua;
+     
+        
+    }
+    
+}
+
+#three{
+    position: absolute;
+    height: 4px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid transparent;
+   transform: translateY(-5px);
+   animation: third 2s forwards;
+   transition: 5s;
+
+
+   
+}
+
+@keyframes third {
+
+    0%{
+        background-color: transparent;
+
+    }
+    50%{
+        width: 50px;
+        background-color: aqua;
+      
+    }
+   100%{
+        width:250px ;
+        background-color: aqua;
+     
+        
+    }
+    
+}
+
+#four{
+    position: absolute;
+    height: 4px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid transparent;
+   transform: translateY(-5px);
+   animation: forth 2s forwards;
+   transition: 5s;
+
+
+   
+}
+
+@keyframes forth {
+
+    0%{
+        background-color: transparent;
+
+    }
+    50%{
+        width: 50px;
+        background-color: aqua;
+      
+    }
+   100%{
+        width:200px ;
+        background-color: aqua;
+     
+        
+    }
+    
+}
+
+#five{
+    position: absolute;
+    height: 4px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid transparent;
+   transform: translateY(-5px);
+   animation: fifth 2s forwards;
+   transition: 5s;
+
+
+   
+}
+
+@keyframes fifth {
+
+    0%{
+        background-color: transparent;
+
+    }
+    50%{
+        width: 50px;
+        background-color: aqua;
+      
+    }
+   100%{
+        width:170px ;
+        background-color: aqua;
+     
+        
+    }
+    
+}
+
+
+ 
