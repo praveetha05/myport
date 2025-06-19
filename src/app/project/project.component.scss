@@ -9,12 +9,13 @@ body{
     color: white;
     background-blend-mode: multiply;
       background-attachment: fixed;  
-   height: 150vh;
+  min-height: 100vh;
 overflow: hidden; 
   
 
 
 }
+
 *{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 1px 2px 3px black;

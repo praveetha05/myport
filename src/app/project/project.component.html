@@ -1,12 +1,12 @@
-<body>
+<body class="bg-image">
 
 <h1 class=" text-center fw-bold text-success m-5 fs-1">Project</h1>
 
-<div class="container projects d-flex justify-content-center align-items-center vh-100 col-12 col-md-6 col-lg-4">
+<div class="container projects d-flex justify-content-center align-items-center">
 
 
 
-<button (click)="show()" appColor [ngStyle]="A">College Project</button>
+<button (click)="show()" appColor [ngStyle]="A" class="btn">College Project</button>
 <div class="container projectone" *ngIf="l">
 <h2 class="text-bold text-success">College project</h2>
 <h3 class="text-danger">Project Title:</h3>
@@ -29,7 +29,7 @@ MATLAB, Simulink, NS2 (optional depending on what was used), Research Papers
 
 
 
- <button class="btn btn-success" (click)="two()" appColor [ngStyle]="B">Javascript project1</button>
+ <button class="btn btn-success" (click)="two()" appColor [ngStyle]="B"  class="btn">Javascript project1</button>
 <div class="container projecttwo" *ngIf="m">
     <h2 class="text-bold text-success">Project 1</h2>
 
@@ -51,7 +51,7 @@ HTML5, CSS, and JavaScript.
 
 
 
-<button class="btn btn-success" (click)="three()" appColor [ngStyle]="C">Javascript project2</button>
+<button class="btn btn-success" (click)="three()" appColor [ngStyle]="C"  class="btn">Javascript project2</button>
 <div class="container projectthree" *ngIf="n">
      <h2 class="text-bold text-success">Project 2</h2>
 
@@ -74,7 +74,7 @@ HTML5,CSS3,Bootstrap 5,JavaScript
 
 
 
-<button class="btn btn-success" (click)="four()" appColor [ngStyle]="D">Javascript project3</button>
+<button class="btn btn-success" (click)="four()" appColor [ngStyle]="D"  class="btn">Javascript project3</button>
 <div class="container projectfour" *ngIf="o">
     <h2 class="text-bold text-success">Javascript project3</h2>
 

@@ -2,10 +2,11 @@ body{
     background-image: url(/back9.webp);
     background-repeat: no-repeat;
     background-size: cover;
+
     background-color: skyblue;
     background-blend-mode: multiply;
-    height: 100vh;
-    width: 100vw;
+     min-height: 100vh;
+
   
   
 
@@ -27,10 +28,6 @@ body{
                 
 }
 
-.imgdv{
-    display: flex;
-    gap: 300px;
-  }
 
   a{
     color: white;
