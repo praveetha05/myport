@@ -5,6 +5,10 @@ body{
     background-color: skyblue;
     background-blend-mode: multiply;
     height: 100vh;
+    width: 100vw;
+  
+  
+
 
    
 
@@ -25,8 +29,7 @@ body{
 
 .imgdv{
     display: flex;
-    flex-direction: row;
-    gap: 500px;
+    gap: 300px;
   }
 
   a{

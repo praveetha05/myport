@@ -9,14 +9,17 @@ import { filter, map, mergeMap } from 'rxjs';
   selector: 'app-root',
   encapsulation:ViewEncapsulation.Emulated,
 
-  imports: [RouterOutlet,RouterModule,HomeComponent,CommonModule],
+  imports: [RouterOutlet,RouterModule,CommonModule,HomeComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'project';
 
-  showNavbar = true;
+ 
+
+
+ showNavbar = true;
 
    constructor(private router: Router, private activatedRoute: ActivatedRoute) {
     this.router.events
